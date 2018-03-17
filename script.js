@@ -42,5 +42,5 @@ function countUnqiueStringLetters() {
     }
   }
   var div = document.getElementById("result");
-  div.textContent = uniqueLetters + " unique letters";
+  div.textContent = "count = " + uniqueLetters;
 }
