@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Letter counter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <script src="script.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <body>
+    <!--<div class="search">
+      <input name="searchTxt" value="https://jsonplaceholder.typicode.com/users" type="text" maxlength="512" id="textbox_id" class="searchField"/>
+      <button onclick="getJSON()">Start</button>
+    </div>
+    <ul id="myList">-->
+    <div class="search">
+      <input name="searchTxt" placeholder="Type in a string" type="text" maxlength="512" id="textbox_string" class="searchField"/>
+      <button onclick="countUnqiueStringLetters()">Start</button>
+    </div>
+    <div id="result">
+    </div>
+  </body>
+</html>
