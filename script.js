@@ -49,7 +49,13 @@ function countUnqiueStringLetters() {
   // find result div in html doc
   var div = document.getElementById("result");
   // replace text in div with word count
-  div.textContent = "Count = " + uniqueWords;
+  if(document.getElementById('textbox_string').value.trim() == "") {
+    div.textContent = "Count = " + 0;
+  }
+  else {
+    div.textContent = "Count = " + uniqueWords;
+  }
+
   // empty div when making a new count
   document.getElementById('textbox_string').value = "";
 }
