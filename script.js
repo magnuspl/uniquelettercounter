@@ -37,7 +37,7 @@ function countUnqiueStringLetters() {
   // turn all charachters into lowercase
   var lowercaseString = input.toLowerCase();
   // replace speciel characters with ""
-  var removeSpecial = lowercaseString.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '');
+  var removeSpecial = lowercaseString.replace(/[&\/\\#,+()$~%.'"”:*?<>{}]/g, '');
   // remove whitespace from string
   var trimmed = removeSpecial.trim();
   // split words in string into an array
