@@ -59,7 +59,7 @@ function findUniques(array){
   let uniqueList = []
   // iterate through arr
   array.forEach(i => {
-    // check if uniques does not contain n.
+    // check if uniques does not contain i.
     if(!uniqueList.includes(i)){
       // if yes, push to uniques
       uniqueList.push(i)
